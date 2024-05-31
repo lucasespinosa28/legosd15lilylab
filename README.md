@@ -16,5 +16,5 @@ docker push espinosa1991/legolilypadsd15:0.1
 ## To run your worklow at lilypad
 ```bash
 export WEB3_PRIVATE_KEY=<walletprivatekey>
-lilypad run <this github repo:realease tag> -i Prompt="RAW photo, <lora:lego_v2.0.768-000035:0.8> LEGO BrickHeadz, a dragon in a cave, (high detailed skin:1.2), 8k uhd, dslr, soft lighting, high quality, film grain, Fujifilm XT3"
+lilypad run github.com/lucasespinosa28/legosd15lilylab:v1.0 -i Prompt="RAW photo, <lora:lego_v2.0.768-000035:0.8> LEGO BrickHeadz, a dragon in a cave, (high detailed skin:1.2), 8k uhd, dslr, soft lighting, high quality, film grain, Fujifilm XT3"
 ```
